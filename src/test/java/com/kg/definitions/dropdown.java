@@ -49,7 +49,6 @@ public class dropdown {
    WebElement moveonmenu1 = driver.findElement(By.id("navigation-products"));
    actions.moveToElement(moveonmenu1).moveToElement(driver.findElement(By.xpath("//*[@id='menu-category-iot']"))).click().perform();
 
-     PGGGGGGGGGggytjjj
         // Select mydrpdwn = new Select(driver.findElement(By.id("drop1")));
         // mydrpdwn.selectByVisibleText("Audi");
         // Select dropdown2 = new Select(driver.findElement(By.xpath("//*[@id='drop2']")));
