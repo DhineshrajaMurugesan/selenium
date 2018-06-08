@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test the html page",
+        "description": "",
+        "id": "check-dropdown-functionality;test-the-html-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22044353024,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at  sample html page",
+            "match": {
+              "location": "dropdown.i_am_at_sample_html_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8733634299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select menus from dropdown",
+            "match": {
+              "location": "dropdown.i_select_menus_from_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146482,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press exit",
+            "match": {
+              "location": "dropdown.i_press_exit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check dropdown functionality",
+    "description": "",
+    "id": "check-dropdown-functionality",
+    "keyword": "Feature",
+    "uri": "dropdown.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@dropdown"
+      }
+    ]
+  }
+]
